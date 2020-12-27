@@ -5,7 +5,7 @@ import torch
 from dataclasses import dataclass
 from typing import Union, List, Dict, Optional
 
-from transformers.tokenization_bert import whitespace_tokenize
+from transformers.models.bert.tokenization_bert import whitespace_tokenize
 
 from jiant.tasks.lib.templates.squad_style import utils as squad_utils
 from jiant.shared.constants import PHASE
